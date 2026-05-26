@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 function Header() {
   return (
     <header className='lg:w-[90%] mx-auto flex items-center justify-between p-5'>
-       <a href="#"> <img  src="/public/logo.png" alt="logo" /></a> 
+       <a href="#"> <img  src="/logo.png" alt="logo" /></a> 
       <ul className='hidden lg:flex items-center justify-center gap-5 font-bold'>
         <li className="text-[#0AA8A7]">
           <a href="#">Home</a>

@@ -8,7 +8,7 @@ function Hero() {
             <div className="w-full max-w-[1200px] mx-auto px-4 py-10">
                 <div className="flex flex-col items-center justify-center gap-6 text-center">
                     <div className='w-full max-w-[350px] md:max-w-[450px] lg:order-1'>
-                        <img className="w-full h-auto object-contain" src="/public/banner-art.svg" alt="banner" />
+                        <img className="w-full h-auto object-contain" src="/banner-art.svg" alt="banner" />
                     </div>
                     <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight tracking-tight">Let us solve your critical website development challenges</h1>
                     <p className="text-gray-500 text-sm sm:text-base max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
@@ -64,7 +64,7 @@ function Hero() {
                     </div>
                     
                     <div className='order-1 lg:order-2'>
-                        <img src="/public/service-slide-3.png" alt="" className="w-full h-auto" />
+                        <img src="/service-slide-3.png" alt="" className="w-full h-auto" />
                     </div>
 
                 </div>
@@ -80,7 +80,7 @@ function Hero() {
                     </div>
 
                      <div className='order-1 lg:order-1'>
-                        <img src="/public/service-slide-1.png" alt="" className="w-full h-auto" />
+                        <img src="/service-slide-1.png" alt="" className="w-full h-auto" />
                     </div>
                     
                 </div>
@@ -90,7 +90,7 @@ function Hero() {
             <div className='py-16'>
                 <div className='flex flex-col items-center justify-center gap-10'>
                     <h1 className='text-4xl lato-regular font-bold text-center'>Experience the best workflow with us</h1>
-                    <img src="/public/banner.svg" alt="" />
+                    <img src="/banner.svg" alt="" />
                 </div>
             </div>
         </section>
@@ -101,7 +101,7 @@ function Hero() {
                     <div className='flex flex-col lg:flex-row items-center p-6 md:p-12 gap-8'>
                         
                         <div className='w-full lg:w-1/2 flex justify-center'>
-                            <img src="/public/cta.svg" alt="Ready to get started" className="w-full h-auto max-h-[300px] object-contain" />
+                            <img src="/cta.svg" alt="Ready to get started" className="w-full h-auto max-h-[300px] object-contain" />
                         </div>
                         
                         <div className='w-full lg:w-1/2 flex flex-col justify-center space-y-4 text-center lg:text-left'>

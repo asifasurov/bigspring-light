@@ -36,7 +36,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className='py-5 '>
-                        <img src="/public/logo.png" alt="" />
+                        <img src="/logo.png" alt="" />
                         <p className='text-gray-400 py-3'>Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
                         <div className="media-link flex items-center gap-4  text-2xl text-[#0AA8A7] ">
                                 <a href=""><FaFacebook /></a>
