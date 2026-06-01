@@ -1,30 +1,34 @@
 import { FaBars } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 function Header() {
   return (
-    <header className='lg:w-[90%] mx-auto flex items-center justify-between p-5'>
-       <a href="#"> <img  src="/logo.png" alt="logo" /></a> 
+   <>
+      <header className='lg:w-[90%] mx-auto flex items-center justify-between p-5'>
+       <Link to={'/'}> <img  src="/logo.png" alt="logo" /></Link> 
       <ul className='hidden lg:flex items-center justify-center gap-5 font-bold'>
         <li className="text-[#0AA8A7]">
-          <a href="#">Home</a>
+          <Link to={'/'}>Home</Link>
         </li>
         <li className="hover:text-[#0AA8A7]">
-          <a href="#">Blog</a>
+          <Link to={'/blog'} >Blog</Link>
         </li>
         <li className="hover:text-[#0AA8A7]">
-          <a href="#">Pricing</a>
+          <Link to={'/pricing'}>Pricing</Link>
         </li>
         <li className="hover:text-[#0AA8A7]">
-          <a href="#">Contact</a>
+          <Link to={'/contact'}>Contact</Link>
         </li>
         <li className="hover:text-[#0AA8A7]">
-          <a href="#">FAQ</a>
+          <Link to={'/faq'}>FAQ</Link>
         </li>
       </ul>
       <button className="bg-[#0AA8A7] p-3 rounded-2xl hidden lg:block">Get Started</button>
       <FaBars className="lg:hidden" />
-    </header>
-  );
+      </header>
+   </>
+  )
 }
 
-export default Header;
+export default Header
+
+
