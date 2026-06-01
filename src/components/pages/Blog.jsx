@@ -13,7 +13,7 @@ function Blog() {
         <div className="flex flex-col md:flex-row items-center gap-8 bg-white overflow-hidden">
           <div className="w-full md:w-1/2">
             <img 
-              src="/public/blog-4.jpg" 
+              src="/blog-4.jpg" 
               alt="Adversus" 
               className="w-full h-[280px] object-cover rounded-lg"
             />
@@ -37,7 +37,7 @@ function Blog() {
           
           <div className="flex flex-col items-start bg-white">
             <img 
-              src="/public/blog-4.jpg" 
+              src="/blog-4.jpg" 
               alt="News 1" 
               className="w-full h-[200px] object-cover rounded-lg mb-4"
             />
@@ -51,7 +51,7 @@ function Blog() {
 
           <div className="flex flex-col items-start bg-white">
             <img 
-              src="/public/blog-3.jpg" 
+              src="/blog-3.jpg" 
               alt="News 2" 
               className="w-full h-[200px] object-cover rounded-lg mb-4"
             />
@@ -65,7 +65,7 @@ function Blog() {
 
           <div className="flex flex-col items-start bg-white">
             <img 
-              src="/public/blog-2.jpg" 
+              src="/blog-2.jpg" 
               alt="News 3" 
               className="w-full h-[200px] object-cover rounded-lg mb-4"
             />
